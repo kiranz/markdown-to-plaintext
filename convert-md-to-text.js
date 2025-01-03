@@ -246,3 +246,8 @@ class MarkdownConverter {
         };
     }
 }
+
+
+module.exports = {
+    MarkdownConverter
+};
