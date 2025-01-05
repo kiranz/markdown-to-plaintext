@@ -8,6 +8,7 @@ const { MarkdownConverter } = require("./convert-md-to-text.js");
 // Create an instance
 const converter = new MarkdownConverter({
     preserveHTML: false,
+    preserveLineBreaks: true,
     debug: false
 });
 
